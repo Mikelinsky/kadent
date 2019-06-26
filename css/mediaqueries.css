@@ -1,0 +1,235 @@
+/* Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199px) {
+    .nav-item {
+        margin: 0;
+        font-size: 11px;
+    }
+    .navbar__btn {
+        font-size: 11px;
+    }
+    /*--carousel--*/
+    .carousel__slide-background {
+        height: 570px;
+    }
+
+    .carousel__title {
+        font-size: 38px;
+    }
+    .carousel__subtitle {
+        font-size: 18px;
+    }
+    .carousel__paragraph {
+        margin-bottom: 70px;
+    }
+    .header__down-btn {
+        height: 45px;
+        width: 45px;
+        bottom: -9px;
+    }
+    /*--icons--*/
+    .icons__title {
+        font-size: 15px;
+    }
+    /*--sections--*/
+    .sections__title {
+        margin-bottom: 25px;
+    }
+    .sections__paragraph {
+        line-height: 19px;
+    }
+}
+
+/* Medium devices (tablets, less than 992px)*/
+@media (max-width: 991px) {
+    .nav-item {
+        justify-content: center;
+    }
+    .navbar__item::before {
+        display: none;
+    }
+
+    /*--carousel--*/
+    .carousel__shape {
+        width: 80px;
+        height: 80px;
+    }
+    .carousel__content-box {
+        width: 60%;
+    }
+    /*--icons--*/
+    .icons__icon {
+        width: 50%;
+    }
+    .icons__title {
+        text-align: center;
+        font-size: 13px;
+    }
+    /*--sections--*/
+    .about__col {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .about__img, .offer__img {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .tech__col {
+        text-align: center;
+    }
+    .special__link {
+        display: block;
+        width: 215px;
+        margin: 0 auto;
+    }
+
+    /*--form form--*/
+    .form__form {
+        flex-wrap: wrap;
+    }
+    .form__input {
+        width: 100%;
+    }
+    .mdb-select {
+        width: 100%;
+    }
+    .input-default-wrapper .input-default-js+label span:not(.span-browse) {
+        width: 142px;
+    }
+    /*--footer--*/
+    .footer__top-bar {
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .footer__col {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .footer__socialmedia {
+        justify-content: center;
+        margin-top: 14px;
+    }
+    .footer__contact-link {
+        margin-bottom: 10px;
+    }
+    .footer__logo {
+        margin-bottom: 15px;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767px) {
+    .carousel__slide-background {
+        height: 517px;
+    }
+    .carousel__title {
+        font-size: 28px;
+    }
+    .carousel__subtitle {
+        font-size: 15px;
+    }
+    .carousel__paragraph {
+        margin-bottom: 47px;
+        font-size: 14px;
+    }
+    .special__btn-part1 {
+        font-size: 14px;
+    }
+    .special__btn-part2 {
+        height: 51px;
+        width: 51px;
+    }
+    /*--icons--*/
+    .icons__title {
+        font-size: 12px;
+        margin-top: 14px;
+    }
+    /*--sections--*/
+    .sections__smtitle {
+        font-size: 16px;
+    }
+    .sections__title {
+        font-size: 25px;
+    }
+    .sections__paragraph {
+        font-size: 13px;
+    }
+    .sections__subtitle {
+        font-size: 15px;
+    }
+    .special__link {
+        width: 198px;
+    }
+
+    /*--footer--*/
+    .footer__copyrights {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer__contact-link {
+        margin-right: 0;
+    }
+    .footer__contact-box {
+        flex-direction: column;
+        display: flex;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) {
+    /*--carousel--*/
+    .carousel__slide-background {
+        height: 437px;
+    }
+    .carousel__content-box {
+        width: 85%;
+    }
+    .carousel__title {
+        font-size: 21px;
+        margin-bottom: 20px;
+    }
+    .carousel__paragraph {
+        margin-bottom: 29px;
+        font-size: 12px;
+    }
+    .carousel__shape {
+        width: 40px;
+        height: 40px;
+    }
+    .special__btn-part1 {
+        font-size: 11px;
+    }
+    .special__btn-part2 {
+        height: 46px;
+        width: 46px;
+    }
+    .owl-dot {
+        margin: 0 5px;
+    }
+    /*--icons--*/
+    .icons__container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .icons__cell {
+        margin: 0 7px 15px 7px;
+    }
+    /*--sections--*/
+    .sections__title {
+        font-size: 22px;
+    }
+    .sections__smtitle {
+        font-size: 13px;
+    }
+    .sections__paragraph {
+        font-size: 12px;
+    }
+    .special__link {
+        width: 173px;
+    }
+    
+}
